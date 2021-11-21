@@ -14,3 +14,9 @@
 День 2:
 
 2:23 digits+feynman
+
+День 3:
+
+3:42 kaufman+footer
+
+Итого: 9:28
