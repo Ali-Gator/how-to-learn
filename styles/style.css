@@ -121,8 +121,6 @@
 
 .two-columns__brief {
   width: 175px;
-  max-width: 300px;
-  min-width: 100px;
   margin: 0;
   padding: 0;
   color: #2f80ed;
