@@ -17,5 +17,5 @@
 
 |Этап|План|Факт|
 |--|--|--|
-| 1 <br>  18 Nov 2021 - 22 Nov 2021|1 блок - 1,5 часа <br> 6 блоков - 9 часов <br> Запас - 2 часа <br><br>**Итого 11 часов**|День 1: <br> 3:23 header+description <br><br> День 2: <br> 2:23 digits+feynman <br><br> День 3: <br> 3:42 kaufman+footer <br><br> **Итого: 9:28 часов**|
+|18 Nov 2021 - 22 Nov 2021|1 блок - 1,5 часа <br> 6 блоков - 9 часов <br> Запас - 2 часа <br><br>**Итого 11 часов**|День 1: <br> 3:23 header+description <br><br> День 2: <br> 2:23 digits+feynman <br><br> День 3: <br> 3:42 kaufman+footer <br><br> **Итого: 9:28 часов**|
 2|||
