@@ -1,0 +1,7 @@
+/* Стили для video */
+
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
