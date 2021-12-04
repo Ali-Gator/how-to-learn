@@ -3,13 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- Единый стиль кода: 1 аттрибут - пишем в строчку с тэгом, 2 и более - каждый с новой строки.
+
+  Выдержка из style гайда:
+
+        Переносите длинные строки в HTML
+
+        Хотя в языке HTML нет рекомендации, ограничивающей длину строк, длинные строки стоит разбивать — такой код станет проще читать.
+
+        При переносе строк их продолжения должны иметь отступ минимум в два пробела относительно начальной строки.
+
+
+        <p>При переносе строк их продолжения должны иметь отступ
+        минимум в два пробела относительно начальной строки.</p>
+
+        <a
+          href="https://yandex.ru"
+          class="my-wonderful-link"
+          target="_blank"
+          id="myId"
+        > Ссылка с большим количеством атрибутов</a>
+-->
     <meta
       name="description"
       content="Описание современных подходов к обучению"
     />
     <meta name="keywords" content="методы обучения" />
     <meta name="author" content="Олег Гордиенов" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
     <title>Научиться учиться</title>
   </head>
   <body>
@@ -21,7 +42,7 @@
         <p class="header__subtitle">
           Какие современные и эффективные подходы к обучению вы можете
           использовать в своей жизни?
-          <a class="header__link" href="#description">Узнать &#8594;</a>
+          <a class="header__link" href="#description">Узнать &rarr;</a>
         </p>
         <a
           class="logo logo_place_header"
@@ -142,8 +163,7 @@
           <div class="video__iframes">
             <iframe
               class="video__iframe"
-              width="515"
-              height="316"
+
               src="https://www.youtube.com/embed/arj7oStGLkU"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -151,8 +171,7 @@
             ></iframe>
             <iframe
               class="video__iframe"
-              width="515"
-              height="316"
+
               src="https://www.youtube.com/embed/5MgBikgcWnY"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -190,7 +209,7 @@
             class="feynman__link"
             href="https://lifehacker.ru/metod-fejnmana"
             target="_blank"
-            >Подробнее &#8594;</a
+            >Подробнее &rarr;</a
           >
           <img
             src="./images/feynman.png"
@@ -256,16 +275,14 @@
           <div class="khan__container">
             <h2 class="khan__title">Весь мир — школа</h2>
             <p class="khan__author">Салман Хан</p>
-            <blockquote>
-              <p class="khan__quote">
-                Страсть и новаторство Сала Хана меняют процесс обучения
-                миллионов студентов по всему миру. Книгу «Весь мир — школа»
-                нужно прочитать всем, кто занимается образованием — так учащиеся
-                повсюду смогут получить навыки и знания, которые приносят успех
-                в школе, карьере и жизни.
-              </p>
+            <blockquote class="khan__quote">
+              Страсть и новаторство Сала Хана меняют процесс обучения миллионов
+              студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать
+              всем, кто занимается образованием — так учащиеся повсюду смогут
+              получить навыки и знания, которые приносят успех в школе, карьере
+              и жизни.
             </blockquote>
-            <cite class="khan__quote-author">Джордж Лукас</cite>
+            <p class="khan__quote-author">Джордж Лукас</p>
             <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
             <div class="khan__book-container">
               <img
