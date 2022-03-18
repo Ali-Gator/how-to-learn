@@ -7,7 +7,8 @@
 * CSS: flexbox layout, @keyframes animation
 * BEM Nested
 
-
+## Ссылки
+[Запустить на GitHub Pages](https://ali-gator.github.io/how-to-learn/)
 
 ## Этапы работы
 
